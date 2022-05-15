@@ -16,4 +16,4 @@ class Test(unittest.TestCase):
 
     def test_conteudo(self):
         # verifica o retorno do conteudo da pagina
-        self.assertEqual(self.result.data.decode('utf-8'), "Fase 05 - Grupo 3 (Antonio Calazans, Chrystiano Bezerra, José Mario Mester e Leandro Nunes) - 7ASO - FIAP 2021/2022.")
+        self.assertEqual(self.result.data.decode('utf-8'), "Fase 05 - Grupo 3 (Antonio Calazans, Chrystiano Bezerra, José Mario Mestre e Leandro Nunes) - 7ASO - FIAP 2021/2022.")
